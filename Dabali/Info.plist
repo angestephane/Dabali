@@ -2,12 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NunitoFont-Regular.ttf</string>
+		<string>NunitoFont-Medium.ttf</string>
+		<string>NunitoFont-SemiBold.ttf</string>
+		<string>NunitoFont-Bold.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
 		<key>UISceneConfigurations</key>
 		<dict>
+			<key>Main storyboard base file name</key>
+			<string>GBOverviewViewController</string>
 			<key>UIWindowSceneSessionRoleApplication</key>
 			<array>
 				<dict>
@@ -16,7 +27,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
+					<string>GBOverviewViewController</string>
 				</dict>
 			</array>
 		</dict>
